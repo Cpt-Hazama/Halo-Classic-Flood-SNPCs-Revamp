@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/cpthazama/halo_classic/floodcombat elite"
+	"$bumpmap" "models/cpthazama/halo_classic/floodcombat elite_n"
+	"$AmbientOcclusion"		"1"
+
+	$nodecal 1
+	"$phongexponenttexture"	"models/cpthazama/halo_classic/exp_255"
+	"$normalmapalphaenvmapmask"	"1"
+	"$phong"				"1"
+	"$phongexponent"			"15"
+	"$phongboost"			"10"
+	"$phongfresnelranges"		"[0.67 0.83 1]"
+
+	"$selfillum" 1
+	$selfillummask "models/cpthazama/halo_classic/floodcombat elite_g"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	1
+			"sinemax"	6
+		}
+	}
+}

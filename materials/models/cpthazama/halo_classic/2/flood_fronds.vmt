@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/cpthazama/halo_classic/2/flood_fronds"
+	"$alphatest" 1
+	"$AmbientOcclusion"		"1"
+
+	$nodecal 1
+	"$phongexponenttexture"	"models/cpthazama/halo_classic/exp_255"
+	"$normalmapalphaenvmapmask"	"1"
+	"$phong"				"1"
+	"$phongexponent"			"15"
+	"$phongboost"			"10"
+	"$phongfresnelranges"		"[0.67 0.83 1]"
+	$BasemapLuminancePhongMask 1
+
+	$emissiveBlendEnabled 1
+	$emissiveBlendTexture    "models/cpthazama/halo3/flood_fronds_n"
+	$emissiveBlendBaseTexture    "models/cpthazama/halo_classic/2/flood_fronds_g"
+	$emissiveBlendFlowTexture    "models/cpthazama/halo3/flood_fronds_f"
+	$emissiveBlendTint "[5 1 1]"
+	$emissiveBlendStrength 1
+	$emissiveBlendScrollVector "[0 -0.7]"
+}
